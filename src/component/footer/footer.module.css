@@ -1,0 +1,15 @@
+.footerContainer{
+    background-color: #f99f1c;
+    background-image: url('../../assets/Image2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+
+    height: 20rem;
+}
+
+.footerContent{
+    width: 80%;
+}
+
+

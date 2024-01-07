@@ -1,0 +1,47 @@
+.formContainer{
+    margin-left: 50%;
+    width: 40%;
+    height: auto;
+    background-color: rgb(157, 158, 160);
+    border-radius: 5%;
+}
+.form{
+    width: 100%;
+    padding: 5% 25%;
+}
+.textInput{
+    border: none;
+    width: 60%;
+    border-radius: 6px;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.textInput::placeholder{
+    padding: 5% 3%;
+}
+
+.addButton, .cancelButton{
+    padding: 2% 5%;
+    border-radius: 5%;
+    margin: 3% 1%;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(22, 22, 22);
+}
+
+.addButton{
+    background-color: rgb(113, 236, 154);
+}
+
+.addButton:hover{
+    background-color: rgb(9, 223, 80);
+}
+
+.cancelButton{
+    background-color: brown;
+}
+
+.cancelButton:hover{
+    background-color: rgb(235, 11, 11);
+}

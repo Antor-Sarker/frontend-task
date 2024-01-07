@@ -1,0 +1,46 @@
+
+.foodContainer{
+    width: 80%;
+    margin: 2% 10%;
+}
+.popularContainer{
+    margin-top: 10%;
+}
+.recommendedContainer{
+    margin-top: 12%;
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    color: #22303f;
+    font-weight: 400;
+}
+.recommended{
+    display: flex;
+    justify-content: space-between;
+    color: #22303f;
+    font-weight: 400;
+}
+
+.popularButton{
+    display: flex;
+    padding-right: 3%;
+}
+
+.popularContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularAddMore{
+    outline: none;
+    border: none;
+    color: #fb681d;
+    font-size: medium;
+}
+.next, .prev{
+    outline: none;
+    border: none;
+    color: black;
+}
